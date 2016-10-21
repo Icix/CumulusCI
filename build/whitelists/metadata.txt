@@ -83,12 +83,14 @@ CollaborationGroupMemberRequest.object
 CollaborationInvitation.object
 CombinedAttachment.object
 Community.object
+ConnectedApp.object
 Contact.object
 ContactFeed.object
 ContactHistory.object
 ContactOwnerSharingRule.object
 ContactShare.object
 ContactTag.object
+ContentAsset.object
 ContentDocument.object
 ContentDocumentFeed.object
 ContentDocumentHistory.object
@@ -166,6 +168,8 @@ FeedTrackedChange.object
 FieldPermissions.object
 FileNotFound.page
 FiscalYearSettings.object
+FlexiPage.object
+Flow.object
 Folder.object
 Force_com.app
 ForecastShare.object
