@@ -37,6 +37,18 @@
       </then>
     </if>
     <if>
+        <isset property="env.NULL_USERNAME" />
+        <then>
+            <var name="null.username" value="${env.NULL_USERNAME}" />
+        </then>
+    </if>
+    <if>
+        <isset property="env.NULL_PASSWORD" />
+        <then>
+            <var name="null.password" value="${env.NULL_PASSWORD}" />
+        </then>
+    </if>
+    <if>
       <isset property="env.SF_SERVERURL" />
       <then>
         <var name="sf.serverurl" value="${env.SF_SERVERURL}" />
